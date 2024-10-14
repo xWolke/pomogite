@@ -10,9 +10,29 @@
   <body>
     <div id="app">
       <div class="header">
-        <div class="menu">
-          <img src="public/burger.svg" alt="">
-        </div>
+        <nav class="sidebar">
+          <div class="text d-flex p-2">
+            <h4>МЕНЮ САЙТА</h4>
+            <div id="nav-icon" class="pushmenuopened">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>	
+          </div>
+          <div class="menu-main-menu-container">
+            <ul id="menu-main-menu">
+              <ul class="sub-menu">
+                <li><a href="#">Услуги и сервисы</a></li>
+                <li><a href="#">Корпоративным клментам</a></li>
+                <li><a href="#">продовцам техники</a></li>
+              </ul>
+              <li><a href="#">Клиентам</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+        </nav>    
+        <div class="hidden-overley"></div>
         <div class="logo">
           <img src="public/logo.svg" alt="">
         </div>
